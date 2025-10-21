@@ -3,15 +3,19 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rsbuild build",
+    "eslint": "eslint .",
+    "eslintfix": "eslint . --fix"
   },
   "dependencies": {
+    "@effect-aws/lambda": "1.5.1",
     "@effect/platform": "0.92.1",
     "@effect/platform-node": "0.98.4",
     "effect": "3.18.4"
   },
   "devDependencies": {
     "@rsbuild/core": "1.5.17",
-    "@ryanemcdaniel/eslint-config": "0.0.0"
+    "@ryanemcdaniel/eslint-config": "0.0.0",
+    "@types/aws-lambda": "8.10.156"
   }
 }
