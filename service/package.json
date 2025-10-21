@@ -1,0 +1,22 @@
+{
+  "name": "service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.1",
+  "dependencies": {
+    "@effect/platform": "0.92.1",
+    "@effect/platform-node": "0.98.4",
+    "effect": "3.18.4"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "1.5.17",
+    "@ryanemcdaniel/eslint-config": "0.0.0"
+  }
+}

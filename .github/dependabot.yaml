@@ -1,0 +1,21 @@
+version: 2
+updates:
+  - package-ecosystem: terraform
+    directory: /cloud/service
+    schedule:
+      interval: weekly
+
+  - package-ecosystem: terraform
+    directory: /cloud/ui
+    schedule:
+      interval: weekly
+
+  - package-ecosystem: npm
+    directory: /service
+    schedule:
+      interval: weekly
+
+  - package-ecosystem: npm
+    directory: /ui
+    schedule:
+      interval: weekly

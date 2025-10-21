@@ -1,0 +1,8 @@
+packages:
+  - service
+  - ui
+
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - core-js
+  - msgpackr-extract
