@@ -6,7 +6,11 @@ settings:
 
 importers:
 
-  .: {}
+  .:
+    devDependencies:
+      eslint:
+        specifier: 9.38.0
+        version: 9.38.0(jiti@2.6.1)
 
   service:
     dependencies:
