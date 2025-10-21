@@ -1,13 +1,13 @@
 {
   "name": "web",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
+  "author": "ryanemcdaniel",
+  "private": true,
+  "packageManager": "pnpm@10.17.1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.17.1"
+  "devDependencies": {
+    "eslint": "9.38.0"
+  }
 }

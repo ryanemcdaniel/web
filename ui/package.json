@@ -1,22 +1,24 @@
 {
   "name": "ui",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.17.1",
-  "devDependencies": {
-    "@rsbuild/core": "1.5.17",
-    "@ryanemcdaniel/eslint-config": "0.0.0",
-    "typescript": "5.9.3"
+    "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
+    "preview": "rsbuild preview",
+    "eslint": "eslint .",
+    "eslintfix": "eslint . --fix"
   },
   "dependencies": {
     "react": "19.2.0",
     "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "1.5.17",
+    "@rsbuild/plugin-react": "1.4.1",
+    "@ryanemcdaniel/eslint-config": "0.0.0",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "typescript": "5.9.3"
   }
 }
