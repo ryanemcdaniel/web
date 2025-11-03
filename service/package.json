@@ -14,7 +14,7 @@
     "effect": "3.18.4"
   },
   "devDependencies": {
-    "@rsbuild/core": "1.5.17",
+    "@rsbuild/core": "1.6.1",
     "@ryanemcdaniel/eslint-config": "0.0.0",
     "@types/aws-lambda": "8.10.156"
   }
