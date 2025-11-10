@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@effect-aws/lambda": "1.5.1",
-    "@effect/platform": "0.92.1",
+    "@effect/platform": "0.93.0",
     "@effect/platform-node": "0.98.4",
     "effect": "3.18.4"
   },
