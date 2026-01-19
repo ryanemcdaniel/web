@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@rsbuild/core": "1.5.17",
-    "@rsbuild/plugin-react": "1.4.1",
+    "@rsbuild/plugin-react": "1.4.3",
     "@ryanemcdaniel/eslint-config": "0.0.0",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
